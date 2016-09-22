@@ -296,6 +296,9 @@ html, body {
       color: #FFFFFF;
     }
    }
+  .mobile-hidden {
+    display: none;
+  }
   article.dairy {
     width: 100%;
     padding: 0 10%;
@@ -440,6 +443,41 @@ html, body {
       line-height: 2.5;
     }
   }
+  .contact {
+      input[type="text"], input[type="tel"], input[type="email"], textarea {
+        border: 1px solid #ffffff;
+        background-color: rgba(145,208,34,0.6);
+        resize: none;
+        color: #FFFFFF;
+        width: 100%;    
+        padding: 12px 20px;
+        font-size: 18px;
+      }
+      input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+        color: #FFFFFF;
+      }
+      .submit {
+        text-align: right;
+      }
+      .group {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+      }
+      .item {
+        width: 100%;
+        margin: 10px 30px 10px 0;
+      }
+      input[type="submit"] {
+        background-color: transparent;
+        border: 1px solid #FFFFFF;
+        font-size: 20px;
+        padding: 10px 40px;
+        margin: 40px auto 0 0;
+        width: 100%;
+        max-width: 230px;
+      }
+    }
   .gallery {
     background-color: $secondary-color;
     padding: 3% 10%;
@@ -500,26 +538,6 @@ html, body {
     }
     .menu-footer {
       width: 20%;
-    }
-    #contact {
-      width: 60%; 
-      input[type="text"], input[type="email"], textarea {
-        border: 1px solid #14468d;
-        background: transparent;
-        resize: none;
-        width: 100%;
-      }
-      label {
-        display: none;
-      }
-      .group1 {
-        display: flex;
-        width: 100%;
-      }
-      .group2 {}
-      .group3 {
-        display: flex;
-      }
     }
     .partner {
       width: 20%
