@@ -1,0 +1,44 @@
+//480px 1366px 
+
+
+
+$mobile-small: 320px;
+$mobile-medium: 480px;
+$mobile-large: 768px;
+$desktop-small: 992px;
+$desktop-medium: 1024px;
+$desktop-large: 1280px;
+$wide-small: 1366px;
+$wide-medium: 1440px;
+$wide-large: 1920px;
+$tv-small: 2560px;
+$tv-medium: 2880px;
+$tv-large: 2560px;
+
+
+$screen-sm-min: 768px;
+$screen-xs-max: $screen-sm-min - 1px;
+$screen-md-min: 992px;
+$screen-sm-max: $screen-md-min - 1px;
+$screen-lg-min: 1200px;
+$screen-md-max: $screen-lg-min - 1px;
+$screen-lg-wide: 1441px;
+
+$primary-color: #2a2045;
+$secondary-color: #0e0c19;
+$tertiary-color: #060f2e;
+$quaternary-color: #13888f;
+
+$darker-color: #12374e;
+
+$lighter-color: #ffffff;
+
+$container-padding: 15px;
+
+$bebas: 'Bebas';
+$roboto: 'Roboto';
+$alternative_fonts: Arial, sans-serif;
+$default-font: $bebas, $alternative_fonts; 
+$alt-font1: $roboto, $alternative_fonts;
+//$alt-font2: $roboto, $alternative_fonts;
+//$alt-font3: $aileron, $alternative_fonts;

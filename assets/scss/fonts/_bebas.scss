@@ -1,0 +1,53 @@
+@mixin fontdef($FontType: "Regular") {
+  src: url('../fonts/bebas/#{$FontType}/BebasNeue-#{$FontType}.eot');
+  src: url('../fonts/bebas/#{$FontType}/BebasNeue-#{$FontType}.eot') format('embedded-opentype'),
+       url('../fonts/bebas/#{$FontType}/BebasNeue-#{$FontType}.woff2') format('woff2'),
+       url('../fonts/bebas/#{$FontType}/BebasNeue-#{$FontType}.woff') format('woff'),
+       url('../fonts/bebas/#{$FontType}/BebasNeue-#{$FontType}.ttf') format('truetype'),
+       url('../fonts/bebas/#{$FontType}/BebasNeue-#{$FontType}.svg') format('svg');
+}
+////////////////
+//  REGULAR   //
+////////////////
+@font-face {
+  font-family: 'Bebas';
+  @include fontdef("Regular");
+  font-weight: normal;
+  font-style: normal;
+}
+///////////////////
+//  ULTRALIGHT   //
+///////////////////
+@font-face {
+  font-family: 'Bebas';
+  @include fontdef("Light");
+  font-weight: 100;
+  font-style: normal;
+}
+/////////////
+//  THIN   //
+/////////////
+@font-face {
+  font-family: 'Bebas';
+  @include fontdef("Thin");
+  font-weight: 200;
+  font-style: normal;
+}
+/////////////
+//  BOLD   //
+/////////////
+@font-face {
+  font-family: 'Bebas';
+  @include fontdef("Bold");
+  font-weight: 700;
+  font-style: normal;
+}
+////////////////
+//  Book   //
+////////////////
+@font-face {
+  font-family: 'Bebas';
+  @include fontdef("Book");
+  font-weight: 300;
+  font-style: normal;
+}
