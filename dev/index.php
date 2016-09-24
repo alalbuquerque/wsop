@@ -20,9 +20,8 @@
 					<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
 				</ol>
 				<div class="carousel-inner">
-					<div class="item animated fadeInDown">
-						<img alt="First slide" src="dist/images/banner.jpg">
-						<div class="container">
+					<div class="item fadeInLeft">
+						<img alt="First slide" class="destaque" src="dist/images/banner.jpg">
 							<div class="carousel-caption">
 								<div class="left">
 									<h2>próximo evento</h2>
@@ -33,11 +32,9 @@
 									<h1>wsop <span>São Paulo</span> / Brazil</h1>
 								</div>
 							</div>
-						</div>
 					</div>
-					<div class="item animated fadeInDown active">
-						<img alt="First slide" src="dist/images/banner.jpg">
-						<div class="container">
+					<div class="item fadeInLeft active">
+						<img alt="First slide" class="destaque" src="dist/images/banner.jpg">
 							<div class="carousel-caption">
 								<div class="left">
 									<h2>próximo evento</h2>
@@ -47,7 +44,6 @@
 								<div class="right">
 									<h1>wsop <span>São Paulo</span> / Brazil</h1>
 								</div>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -60,11 +56,23 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer volutpat bibendum mollis. Nulla non urna tincidunt, ullamcorper velit mollis, sollicitudin dui. Nulla et enim lectus. Nulla in quam at arcu pulvinar commodo. Duis eget massa quis sapien posuere fringilla vitae congue quam. Proin augue augue, cursus vitae semper eu, laoreet quis eros. Proin at elit nec arcu eleifend scelerisque. Pellentesque habitant morbi tristique .</p>
 					<a href="#">Veja mais</a>
 				</div>
+				<div class="box2">
+					<h4 class="title">Mínimo garantido Main Event:</h4>
+					<div class="cicloNumbers">
+						<span class="cifra">R$</span>
+						<span class="ciclo">$ $ $ $ $ $ $ $ $</span>
+					</div>
+					<h4 class="title">Mínimo garantido Brazilian Storm:</h4>
+					<div class="cicloNumbers">
+						<span class="cifra">R$</span>
+						<span class="">1.000.000,00</span>
+					</div>
+				</div>
 			</section>
 			<section class="inner-content">
 				<article>
-					<h2>Próximo Satélite</h2>
 					<section class="list">
+					<h2>Próximo Satélite</h2>
 						<div id="satellites" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
 								<div class="item">
@@ -89,11 +97,12 @@
 					</section>
 				</article>
 			</section>
+			<div class="carts"></div>
 			<?php include 'includes/results-news.php'; ?>
 			<?php include 'includes/gallery.php'; ?>
 			</section>
 		</section>
 		<?php include 'includes/footer.php'; ?>
-	<main>
+	</main>
 </body>
 </html>

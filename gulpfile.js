@@ -8,6 +8,12 @@ var paths = {
     './bower_components/bootstrap/dist/js/bootstrap.js',
     './bower_components/wow/dist/wow.js',
     './bower_components/parallax.js/parallax.js',
+    './bower_components/angular/angular.js',
+    './bower_components/angular-animate/angular-animate.js',
+    './bower_components/parallax/parallax.min.js',
+    './bower_components/ngMask/dist/ngMask.js',
+        //APP
+        './assets/js/wsopModule.js'
     ],
     images: './assets/images/**',
     imagesPath: './dev/dist/images/',
