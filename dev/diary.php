@@ -65,6 +65,10 @@
 								</a>
 							</div>
 							<a href="#" class="plus">Mais</a>
+							<div class="conteudo">
+								<h3>Lorem ipsum dolor sit amet </h3>
+								<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+							</div>
 						</section>
 						<section class="item">
 							<div class="date"><span>04</span> Ago, 15</div>

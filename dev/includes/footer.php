@@ -43,6 +43,10 @@
 	            $('.ng-cloak').removeClass('ng-cloak').addClass('opened');
        		}
         });
+
+       $('.plus').click(function (e){
+       		$('.conteudo').toggle('active')
+       });
        $('.parallax').parallax({
        	
 		    naturalWidth: 600,

@@ -53,7 +53,7 @@
 		</header>
 		<section class="content">
 			<section class="inner-content">
-				<article>
+				<article class="about">
 					<section class="list">
 					<h2>Sobre o WSOP</h2>
 						<section class="content">
