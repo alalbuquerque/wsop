@@ -57,13 +57,26 @@
 					<section class="list">
 					<h2>Galeria</h2>
 						<ul>
-							<li><img src="dist/images/item1.png" alt=""></li>
-							<li><img src="dist/images/item2.png" alt=""></li>
-							<li><img src="dist/images/item3.png" alt=""></li>
-							<li><img src="dist/images/item4.png" alt=""></li>
-							<li><img src="dist/images/item5.png" alt=""></li>
-							<li><img src="dist/images/item6.png" alt=""></li>
-							<li><img src="dist/images/item7.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image1.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image2.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image3.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image4.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image5.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image6.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image7.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image8.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image9.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image10.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image11.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image12.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image13.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image14.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image15.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image16.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image17.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image18.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image19.png" alt=""></li>
+							<li class="item"><img src="dist/images/gallery/image20.png" alt=""></li>
 						</ul>	
 					</section>
 				</article>

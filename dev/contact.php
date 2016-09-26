@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-ng-app="Wsop">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="">
@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="dist/css/app.css">
 	<script type="text/javascript" src="dist/js/app.js"></script>
 </head>
-<body data-ng-controller="HomeController as mainCtrl">
+<body>
 	<main>
 		<header>
 			<div class="logo mobile-hidden">
@@ -57,12 +57,47 @@
 					<section class="list">
 					<section class="form">
 						<h2>Contato</h2>
-						<div class="group">
-							<div class="item"><input type="radio" name="type" value="contact" checked> Fale conosco</div>
-							<div class="item"><input type="radio" name="type" value="female"> Quero ser dealer</div>
-							<div class="item"><input type="radio" name="type" value="other"> Quero ser satélite</div>
+						<div class="group show-label">
+							<div class="item"><input type="radio" name="type" id="type1" value="1" checked><label for="type1"> Fale conosco</label></div>
+							<div class="item"><input type="radio" name="type" id="type2"  value="2"><label for="type2">Quero ser dealer</label></div>
+							<div class="item"><input type="radio" name="type" id="type3"  value="3"><label for="type3"> Quero ser satélite</label></div>
 						</div>
-						<form name="contact">
+						<form name="contact" class="form-type form1 active">
+							<h2>Contato</h2>
+							<div class="group">
+								<div class="item"><input type="text" name="name" placeholder="Nome"></div>
+								<div class="item"><input type="email" name="email" placeholder="E-mail"></div>
+								<div class="item"><input type="tel" name="tel" placeholder="Telefone"></div>
+							</div>
+							<div class="group">
+								<div class="item"><input type="text" name="subject" placeholder="Assunto"></div>
+							</div>
+							<div class="group">
+								<div class="item"><textarea placeholder="Mensagem"></textarea></div>
+							</div>
+							<div class="group submit">
+								<div class="item"><input type="submit" name="submit" value="Enviar"></div>
+							</div>
+						</form>
+						<form name="dealer" class="form-type form2">
+							<h2>Quero ser dealer</h2>
+							<div class="group">
+								<div class="item"><input type="text" name="name" placeholder="Nome"></div>
+								<div class="item"><input type="email" name="email" placeholder="E-mail"></div>
+								<div class="item"><input type="tel" name="tel" placeholder="Telefone"></div>
+							</div>
+							<div class="group">
+								<div class="item"><input type="text" name="subject" placeholder="Assunto"></div>
+							</div>
+							<div class="group">
+								<div class="item"><textarea placeholder="Mensagem"></textarea></div>
+							</div>
+							<div class="group submit">
+								<div class="item"><input type="submit" name="submit" value="Enviar"></div>
+							</div>
+						</form>
+						<form name="satellites" class="form-type form3">
+							<h2>Quero ser satélite</h2>
 							<div class="group">
 								<div class="item"><input type="text" name="name" placeholder="Nome"></div>
 								<div class="item"><input type="email" name="email" placeholder="E-mail"></div>

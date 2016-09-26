@@ -44,12 +44,35 @@
        		}
         });
 
-       $('.plus').click(function (e){
-       		$('.conteudo').toggle('active')
+       $('.container1').click(function (e){
+       		e.preventDefault();
+       		if($(this).hasClass('active')) {
+       			$(this).removeClass('active');
+       		} else {
+       			$(this).addClass('active');
+       		}
        });
        $('.parallax').parallax({
        	
 		    naturalWidth: 600,
 		    naturalHeight: 400
+       });
+
+       $('input[name="type"]').click(function (e) {
+       		if($( "input:checked" ).val() === '1') {
+       			$('.form1').addClass('active');
+       			$('.form2').removeClass('active');
+       			$('.form3').removeClass('active');
+
+       		} 
+       		else if ($( "input:checked" ).val() === '2') {
+       			$('.form2').addClass('active');
+       			$('.form1').removeClass('active');
+       			$('.form3').removeClass('active');
+       		} else {
+       			$('.form3').addClass('active');
+       			$('.form2').removeClass('active');
+       			$('.form1').removeClass('active');
+       		}
        });
       </script>

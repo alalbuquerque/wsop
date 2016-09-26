@@ -56,41 +56,47 @@
 				<article class="news">
 					<section class="list">
 					<h2>News</h2>
-						<section class="item">
-							<a href="news-inner.php">
-								<div class="image">
-									<img src="dist/images/news1.png" alt="">
-								</div>
+						<section class="container1">
+							<div class="item">
+								<div class="image"><img src="dist/images/news1.png"></div>
 								<div class="content">
-									<h3>Lorem ipsum dolor sit amet </h3>
-									<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+										<h3>Lorem ipsum dolor sit amet </h3>
+										<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
 								</div>
-								<div class="plus">mais</div>
-							</a>
+								<a href="#" class="plus">Mais</a>
+							</div>
+							<div class="conteudo">
+								<h3>Lorem ipsum dolor sit amet </h3>
+								<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+							</div>
 						</section>
-						<section class="item">
-							<a href="news-inner.php">
-								<div class="image">
-									<img src="dist/images/news1.png" alt="">
-								</div>
+						<section class="container1">
+							<div class="item">
+								<div class="image"><img src="dist/images/news1.png"></div>
 								<div class="content">
-									<h3>Lorem ipsum dolor sit amet </h3>
-									<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+										<h3>Lorem ipsum dolor sit amet </h3>
+										<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
 								</div>
-								<div class="plus">mais</div>
-							</a>
+								<a href="#" class="plus">Mais</a>
+							</div>
+							<div class="conteudo">
+								<h3>Lorem ipsum dolor sit amet </h3>
+								<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+							</div>
 						</section>
-						<section class="item">
-							<a href="news-inner.php">
-								<div class="image">
-									<img src="dist/images/news1.png" alt="">
-								</div>
+						<section class="container1">
+							<div class="item">
+								<div class="image"><img src="dist/images/news1.png"></div>
 								<div class="content">
-									<h3>Lorem ipsum dolor sit amet </h3>
-									<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+										<h3>Lorem ipsum dolor sit amet </h3>
+										<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
 								</div>
-								<div class="plus">mais</div>
-							</a>
+								<a href="#" class="plus">Mais</a>
+							</div>
+							<div class="conteudo">
+								<h3>Lorem ipsum dolor sit amet </h3>
+								<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+							</div>
 						</section>
 						<a href="#" class="button2">Ver mais</a>
 					</section>

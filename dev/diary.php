@@ -56,21 +56,24 @@
 				<article class="dairy">
 					<section class="list">
 					<h2>Agenda</h2>
-						<section class="item">
-							<div class="date"><span>04</span> Ago, 15</div>
-							<div class="content">
-								<a href="#">
-									<h3>Lorem ipsum dolor sit amet </h3>
-									<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
-								</a>
+						<section class="container1">
+							<div class="item">
+								<div class="date"><span>04</span> Ago, 15</div>
+								<div class="content">
+									<a href="#">
+										<h3>Lorem ipsum dolor sit amet </h3>
+										<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+									</a>
+								</div>
+								<a href="#" class="plus">Mais</a>
 							</div>
-							<a href="#" class="plus">Mais</a>
 							<div class="conteudo">
 								<h3>Lorem ipsum dolor sit amet </h3>
 								<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
 							</div>
 						</section>
-						<section class="item">
+						<section class="container1">
+							<div class="item">
 							<div class="date"><span>04</span> Ago, 15</div>
 							<div class="content">
 								<a href="#">
@@ -79,16 +82,27 @@
 								</a>
 							</div>
 							<a href="#" class="plus">Mais</a>
+							</div>
+							<div class="conteudo">
+								<h3>Lorem ipsum dolor sit amet </h3>
+								<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+							</div>
 						</section>
-						<section class="item">
-							<div class="date"><span>04</span> Ago, 15</div>
-							<div class="content">
-								<a href="#">
-									<h3>Lorem ipsum dolor sit amet </h3>
-									<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
-								</a>
+						<section class="container1">
+							<div class="item">
+								<div class="date"><span>04</span> Ago, 15</div>
+								<div class="content">
+									<a href="#">
+										<h3>Lorem ipsum dolor sit amet </h3>
+										<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+									</a>
+								</div>
+								<a href="#" class="plus">Mais</a>
 							</div>
-							<a href="#" class="plus">Mais</a>
+							<div class="conteudo">
+								<h3>Lorem ipsum dolor sit amet </h3>
+								<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+							</div>
 						</section>
 						<a href="#" class="button2">Ver mais eventos</a>
 					</section>

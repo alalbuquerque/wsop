@@ -77,22 +77,27 @@
 							<div class="carousel-inner">
 								<div class="item">
 									<div class="date"><span>04</span> Ago, 15</div>
-									<h3>Lorem ipsum dolor sit amet </h3>
-									<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+									<div class="content">
+										<h3>Lorem ipsum dolor sit amet </h3>
+										<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+									</div>
 								</div>
 								<div class="item">
 									<div class="date"><span>04</span> Ago, 15</div>
-									<h3>Lorem ipsum dolor sit amet </h3>
-									<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+									<div class="content">
+										<h3>Lorem ipsum dolor sit amet </h3>
+										<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+									</div>
 								</div>
 								<div class="item active">
 									<div class="date"><span>04</span> Ago, 15</div>
-									<h3>Lorem ipsum dolor sit amet </h3>
-									<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+									<div class="content">
+										<h3>Lorem ipsum dolor sit amet </h3>
+										<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+									</div>
 								</div>
 							</div>
-							<a class="left" href="#satellites" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-							<a class="right" href="#satellites" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+							<a class="right" href="#satellites" data-slide="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
 						</div>
 					</section>
 				</article>

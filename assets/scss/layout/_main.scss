@@ -28,6 +28,13 @@ html, body {
       overflow: hidden;
     }
   }
+  .conteudo {
+    display: none;
+  }
+  .active .conteudo {
+    display: block;
+    margin: 55px auto;
+  }
   .menu-btn {
       position: fixed;
       top: 35px;
@@ -124,6 +131,9 @@ html, body {
         width: 100%;
         max-width: 1920px;
         overflow: hidden;
+
+        display: flex;
+        align-items: center;
         img.destaque {
           max-width: 1920px;
           width: 100%;
@@ -179,7 +189,7 @@ html, body {
         z-index: 99999;
         bottom: 10%;
         width: 40%;
-        right: 10%;
+        right: 20%;
         z-index: 99999;
       }
     a {
@@ -214,6 +224,10 @@ html, body {
     background-position: center -4px;
     background-repeat: no-repeat;
     justify-content: space-around;
+      @media (max-width: $mobile-large) {
+        flex-direction: column-reverse;    
+        justify-content: flex-end;
+      }
     .box {
       width: 35%;
       margin: 0 auto;
@@ -222,15 +236,22 @@ html, body {
       @media (max-width: $mobile-large) {
         padding-right: 0;
         padding-top: 65px;
+        width: 100%;
       }
     }
     .box2 {
       width: 20%;
       margin: 0 auto;
       padding-top: 215px;
-      display: none;
+      @media (max-width: $mobile-large) {
+        width: 100%;
+        padding-top: 0px;
+      }
       .title {
-        font-size: 24px;
+        font-size: 30px;
+      }
+      .cicloNumbers {
+        font-size: 30px;
       }
     }
     h3 {
@@ -516,8 +537,37 @@ html, body {
       display: block;
       font-size: 40px;
     }
+
+    .content {
+      width: calc(100% - 100px );
+    }
+    span {
+      display: block;
+      font-size: 30px;
+    }
+    h4 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 100;
+    }
+    .plus {
+      background-image: url('../images/plus.png');
+      display: block;
+      width: 48px;
+      height: 48px;
+      text-indent: -99999px;
+    }
+    
     .item {
-      align-items: center;
+      display: flex;
+      width: 100%;
+    }
+    .container1 + .container1 {
+      border-top: 1px solid #FFFFFF;
+      margin-top: 25px;
+      padding: 25px 0;
     }
     .item + .item {
       border-top: 1px solid #FFFFFF;
@@ -543,6 +593,7 @@ html, body {
     }
     .plus {
       background-image: url('../images/plus.png');
+      background-repeat: no-repeat;
       display: block;
       width: 48px;
       height: 48px;
@@ -561,11 +612,74 @@ html, body {
       padding: 0 5%;
     }
     ul {
-      flex-wrap: wrap;    
-      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 1710px;
+      width: 100%;
+      max-width: 1440px;
     }
     li {
       margin: 15px;
+      border: 0;
+      max-width: 230px;
+      width: 20%;
+    }
+    img {     
+      width: 100%;
+      height: auto;
+      max-width: 230px;
+    }
+  }
+  #satellites {
+    .active {
+      display: flex;
+    }
+
+    h3 {
+      font-size: 36px;
+      font-weight: 600;
+      margin-top: 0;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 100;
+    }
+    .right {
+      font-size: 40px;
+      border: 1px solid #FFF;
+      border-radius: 50px;
+      width: 70px;
+      height: 60px;
+      text-align: center;
+      line-height: 1.5;
+      margin-left: 20px;
+    }
+    .item {
+      margin: 0;
+      padding: 0;
+    }
+    .date {
+      background-color: transparent;
+      border: 3px solid #FFFFFF;
+      color: #FFFFFF;
+      font-size: 12px;
+      text-align: center;
+      width: 120px;
+      height: 120px;
+      padding: 18px;
+      margin-right: 30px;
+      font-weight: bold;
+    }
+    .next {
+      display: none;
+    }
+    .content {
+      width: calc(100% - 175px)
+    }
+    span {
+      display: block;
+      font-size: 28px;
     }
   }
   article.satellites {
@@ -651,7 +765,7 @@ html, body {
     .item {
       align-items: center;
     }
-    .item + .item {
+    .container1 + .container1 {
       border-top: 1px solid #FFFFFF;
       margin-top: 25px;
       padding: 25px 0;
@@ -681,6 +795,7 @@ html, body {
       height: 48px;
       text-indent: -99999px;
     }
+
   }
     .list {
       max-width: 1440px;
@@ -759,7 +874,6 @@ html, body {
         }
     .item a{
       display: flex;
-      width: 100%;
       text-decoration: none;
       color: #FFFFFF;
     }
@@ -805,6 +919,15 @@ html, body {
       input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
         color: #FFFFFF;
       }
+      .form-type {
+        display: none;
+        &.active {
+          display: block;
+        }
+      }
+      label {
+        font-size: 26px;
+      }
       .submit {
         text-align: right;
       }
@@ -825,6 +948,9 @@ html, body {
         margin: 40px auto 0 0;
         width: 100%;
         max-width: 230px;
+      }
+      .press-office {
+        font-size: 30px;
       }
     }
   .gallery {
