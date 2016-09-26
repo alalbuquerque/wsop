@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-ng-app="Wsop">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="">
@@ -10,13 +10,13 @@
 	<link rel="stylesheet" type="text/css" href="dist/css/app.css">
 	<script type="text/javascript" src="dist/js/app.js"></script>
 </head>
-<body data-ng-controller="HomeController as mainCtrl">
+<body>
 	<main>
-		<header>
+	<header>
 			<div class="logo mobile-hidden">
 	        	<a href="#"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a>
 	        </div>
-	        <div class="menu-mobile mobile-hidden ng-cloak" data-ng-show="mainCtrl.menu.opened">
+	        <div class="menu-mobile mobile-hidden ng-cloak">
 	          <ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">Sobre</a></li>
@@ -37,7 +37,7 @@
 				<ul class="menu">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">Sobre</a></li>
-					<li><a href="diary.php" class="active">Agenda</a></li>
+					<li><a href="diary.php">Agenda</a></li>
 					<li><a href="satellites.php">Satélites</a></li>
 					<li><a href="#"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a></li>
 					<li><a href="gallery.php">Galeria</a></li>

@@ -90,6 +90,9 @@ html, body {
       list-style: none;
       padding: 20% 0;
       margin: 0;
+      @media (max-width: $desktop-large) {
+        padding: 10%;
+      }
     }
     li {
       padding: 5px 0;
@@ -114,7 +117,7 @@ html, body {
         margin-top: -275px;
         position: relative;
         @media (max-width: $mobile-large) {
-          margin-top: -400px;
+          margin-top: -130px;
         }
       }
       .carousel-caption {
@@ -122,8 +125,35 @@ html, body {
         justify-content: space-between;
         bottom: 100px;
         
-        @media (max-width: $mobile-large) {
-          flex-direction: column;    
+        @media (max-width: $desktop-medium) { 
+          bottom: 0; 
+        }
+      }
+      .carousel-inner {
+        .item {
+          background-repeat: no-repeat;
+          background-position: top center;
+          background-size: cover;
+          min-height: 430px;
+          @media (max-width: $desktop-medium) { 
+            img {
+              display: none;
+            }
+            h1 {
+              font-size: 31px;
+              padding-top: 20px;
+              line-height: 1;
+            }
+            h2 {
+              font-size: 31px;
+            }
+            p {
+              font-size: 24px;
+            }
+            a {
+              font-size: 24px;
+            }
+          }
         }
       }
       .carousel {
@@ -184,14 +214,19 @@ html, body {
       }
       article {
         position: relative;
-      .list {    
-        position: absolute;
-        z-index: 99999;
-        bottom: 10%;
-        width: 40%;
-        right: 20%;
-        z-index: 99999;
-      }
+        .list {    
+          position: absolute;
+          z-index: 99999;
+          bottom: 10%;
+          width: 40%;
+          right: 20%;
+          z-index: 99999;
+
+          @media (max-width: $desktop-large) {
+            width: 100%;
+            right: 0;
+          }
+        }
     a {
 
       text-decoration: none;
@@ -226,7 +261,8 @@ html, body {
     justify-content: space-around;
       @media (max-width: $mobile-large) {
         flex-direction: column-reverse;    
-        justify-content: flex-end;
+          justify-content: flex-end;
+              padding: 10px;
       }
     .box {
       width: 35%;
@@ -235,7 +271,7 @@ html, body {
 
       @media (max-width: $mobile-large) {
         padding-right: 0;
-        padding-top: 65px;
+        padding-top: 60px;
         width: 100%;
       }
     }
@@ -245,7 +281,7 @@ html, body {
       padding-top: 215px;
       @media (max-width: $mobile-large) {
         width: 100%;
-        padding-top: 0px;
+        padding-top: 60px;
       }
       .title {
         font-size: 30px;
@@ -292,10 +328,10 @@ html, body {
     .logo {
       width: 253px;
       height: 220px;
-      @media (max-width: $mobile-large) {
-        width: 170px;
-        height: 154px;
-      margin-top: 30px;
+      @media (max-width: $desktop-medium) {
+           width: 115px;
+    height: auto;
+        margin-top: 10px;
       }
     }
     nav {
@@ -381,6 +417,7 @@ html, body {
         @media (max-width: $mobile-large) {
           flex-direction: column;
           padding-bottom: 100px;
+          padding: 0;
         }
 
     h3 {
@@ -507,8 +544,9 @@ html, body {
    }
   .mobile-hidden {
     display: none;
-    @media (max-width: $mobile-large) {
+    @media (max-width: $desktop-medium) {
       display: block;
+      z-index: 99;
     }
   }
   .content {
@@ -516,7 +554,7 @@ html, body {
   }
   .desktop-hidden {
     display: block;
-    @media (max-width: $mobile-large) {
+    @media (max-width: $desktop-medium) {
       display: none;
     }
   }
@@ -532,6 +570,9 @@ html, body {
       border: 4px solid #3c3c3c;
       margin-right: 30px;    
       height: 110px;
+      @media (max-width: $desktop-large) {
+        margin: 20px auto;
+      }
     }
     span {
       display: block;
@@ -558,11 +599,20 @@ html, body {
       width: 48px;
       height: 48px;
       text-indent: -99999px;
+      @media (max-width: $desktop-large) {
+        margin: 20px auto;
+      }
     }
     
     .item {
       display: flex;
       width: 100%;
+
+      @media (max-width: $desktop-large) {
+        flex-direction: column;
+         align-items: center;
+
+      }
     }
     .container1 + .container1 {
       border-top: 1px solid #FFFFFF;
@@ -610,6 +660,7 @@ html, body {
       max-width: 1440px;
       width: 100%;
       padding: 0 5%;
+      overflow: hidden;
     }
     ul {
       display: flex;
@@ -618,12 +669,18 @@ html, body {
       height: 1710px;
       width: 100%;
       max-width: 1440px;
+      @media (max-width: $desktop-large) {
+      height: 100%;
+      }
     }
     li {
       margin: 15px;
       border: 0;
       max-width: 230px;
       width: 20%;
+      @media (max-width: $desktop-large) {
+        width: 100%;
+      }
     }
     img {     
       width: 100%;
@@ -634,6 +691,11 @@ html, body {
   #satellites {
     .active {
       display: flex;
+      @media (max-width: $desktop-large) {
+        flex-direction: column;
+        width: 100%;
+      }
+
     }
 
     h3 {
@@ -654,6 +716,12 @@ html, body {
       text-align: center;
       line-height: 1.5;
       margin-left: 20px;
+      @media (max-width: $desktop-large) {
+        position: absolute;   
+        bottom: 0;
+    right: 5%;
+    width: 60px;
+      }
     }
     .item {
       margin: 0;
@@ -670,12 +738,18 @@ html, body {
       padding: 18px;
       margin-right: 30px;
       font-weight: bold;
+      @media (max-width: $desktop-large) {
+        margin: 30px auto; 
+      }
     }
     .next {
       display: none;
     }
     .content {
-      width: calc(100% - 175px)
+      width: calc(100% - 175px);
+      @media (max-width: $desktop-large) {
+        width: 100%;
+      }
     }
     span {
       display: block;
@@ -693,9 +767,15 @@ html, body {
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
+      @media (max-width: $desktop-large) {
+        flex-direction: column;
+      }
     }
     .col1, .col2 {
       width: 40%;
+      @media (max-width: $desktop-large) {
+        width: 100%;
+      }
     }
     .date {
       background-color: #1a6404;
@@ -757,6 +837,9 @@ html, body {
       padding: 18px;
       margin-right: 30px;
       font-weight: bold;
+      @media (max-width: $desktop-large) {
+        margin: 20px auto;
+      }
     }
     span {
       display: block;
@@ -764,6 +847,9 @@ html, body {
     }
     .item {
       align-items: center;
+      @media (max-width: $desktop-large) {
+        flex-direction: column;
+      }
     }
     .container1 + .container1 {
       border-top: 1px solid #FFFFFF;
@@ -794,6 +880,9 @@ html, body {
       width: 48px;
       height: 48px;
       text-indent: -99999px;
+      @media (max-width: $desktop-large) {
+        margin: 20px auto;
+      }
     }
 
   }
@@ -876,6 +965,9 @@ html, body {
       display: flex;
       text-decoration: none;
       color: #FFFFFF;
+      @media (max-width: $mobile-large) {
+        flex-direction: column;
+      }
     }
     .item + .item {
       border-top: 1px solid #18112c;
@@ -886,6 +978,11 @@ html, body {
       border: 4px solid #3c3c3c;
       margin-right: 30px;    
       height: 110px;
+      @media (max-width: $mobile-large) {
+        flex-direction: column; 
+        width: 110px;
+        margin: 20px auto;
+      }
     }
     p {
       font-size: 20px;
@@ -935,10 +1032,17 @@ html, body {
         display: flex;
         width: 100%;
         justify-content: space-between;
+        @media (max-width: $desktop-large) {
+          flex-direction: column;
+        }
       }
       .item {
         width: 100%;
         margin: 10px 30px 10px 0;
+        @media (max-width: $desktop-large) {
+          margin: 10px auto;
+          text-align: center;
+        }
       }
       input[type="submit"] {
         background-color: transparent;
@@ -1008,6 +1112,11 @@ html, body {
     min-height: 1152px;
     top: 524px;
     z-index: 9;
+    @media (max-width: $desktop-large) {
+      top: 865px;
+          background-size: 730px;
+    background-position: top center;
+    }
   }
   article.about {
     
@@ -1096,16 +1205,23 @@ html, body {
           border-bottom: 1px solid #FFFFFF;
           padding-bottom: 20px;
           margin-bottom: 20px;
-          
+          margin-top: 20px;
         }
 
     }
     
     .principal-partner {
       width: 30%;
+        @media (max-width: $mobile-large) {
+          width: 100%;
+          margin-top: 50px;
+        }
       .image {
         width: 100%;    
         max-width: 180px;
+        @media (max-width: $mobile-large) {
+          margin: 20px auto;
+        }
       }
     }
 
@@ -1119,6 +1235,9 @@ html, body {
         .image {
           width: 100%;    
           max-width: 150px;
+          @media (max-width: $mobile-large) {
+            margin: 0 auto;
+          }
         }
     }
 

@@ -20,7 +20,7 @@
 					<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
 				</ol>
 				<div class="carousel-inner">
-					<div class="item fadeInLeft">
+					<div class="item fadeInLeft" style="background-image: url('dist/images/banner.jpg')">
 						<img alt="First slide" class="destaque" src="dist/images/banner.jpg">
 							<div class="carousel-caption">
 								<div class="left">
@@ -33,7 +33,7 @@
 								</div>
 							</div>
 					</div>
-					<div class="item fadeInLeft active">
+					<div class="item fadeInLeft active" style="background-image: url('dist/images/banner.jpg')">
 						<img alt="First slide" class="destaque" src="dist/images/banner.jpg">
 							<div class="carousel-caption">
 								<div class="left">
