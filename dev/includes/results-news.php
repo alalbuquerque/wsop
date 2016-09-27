@@ -4,24 +4,24 @@
 					<h3>Agenda</h3>
 					<section class="list">
 						<section class="item">
-							<div class="date"><span>04</span> Ago, 15</div>
+							<div class="date"><span>26</span> Out, 16</div>
 							<div class="content">
-								<a href="#">
-									<h4>Lorem ipsum dolor sit amet</h4>
-									<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+								<a href="diary.php">
+									<h4>Evento do dia 26 de Outubro de 2016</h4>
+									<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
 								</a>
 							</div>
 						</section>
 						<section class="item">
-							<div class="date"><span>04</span> Ago, 15</div>
+							<div class="date"><span>27</span> Out, 16</div>
 							<div class="content">
-								<a href="#">
-									<h4>Lorem ipsum dolor sit amet </h4>
-									<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+								<a href="diary.php">
+									<h4>Evento do dia 27 de Outubro de 2016</h4>
+									<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
 								</a>
 							</div>
 						</section>
-						<a href="#" class="button">Ver mais</a>
+						<a href="diary.php" class="button">Ver mais</a>
 					</section>
 				</section>
 				<section class="results">
@@ -29,68 +29,68 @@
 					<section class="list">
 						<section class="item">
 							<div class="position">01</div>
-							<p>Mauris at pretium arcu.</p>
+							<p>Evento Não finalizado.</p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">02</div>
-							<p>Mauris at pretium arcu.</p>
+							<p>Evento Não finalizado.</p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">03</div>
-							<p>Mauris at pretium arcu. </p>
+							<p>Evento Não finalizado. </p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">04</div>
-							<p>Mauris at pretium arcu. </p>
+							<p>Evento Não finalizado. </p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">05</div>
-							<p>Mauris at pretium arcu. </p>
+							<p>Evento Não finalizado. </p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">06</div>
-							<p>Mauris at pretium arcu. </p>
+							<p>Evento Não finalizado. </p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">07</div>
-							<p>Mauris at pretium arcu. </p>
+							<p>Evento Não finalizado. </p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">08</div>
-							<p>Mauris at pretium arcu. </p>
+							<p>Evento Não finalizado. </p>
 							<div class="point">000</div>
 						</section>
-						<a href="#" class="button">Ver mais</a>
+						<a href="results.php" class="button">Ver mais</a>
 					</section>
 				</section>
 				<section class="news">
 					<h3>News</h3>	
 					<section class="list">
 						<section class="item">
-							<a href="#">
+							<a href="news.php">
 								<div class="image">
-									<img src="dist/images/news1.png" alt="">
+									<img src="dist/images/news1.jpg" alt="">
 								</div>
-								<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+								<p>WSOP divulga programação de torneios do Circuit Brazil 2016</p>
 							</a>
 						</section>
 						<section class="item">
-							<a href="#">
+							<a href="news.php">
 								<div class="image">
-									<img src="dist/images/news1.png" alt="">
+									<img src="dist/images/news2.jpg" alt="">
 								</div>
-								<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+								<p>WSOP divulga programação de torneios do Circuit Brazil 2016</p>
 							</a>
 						</section>
 
-						<a href="#" class="button">Ver mais</a>
+						<a href="news.php" class="button">Ver mais</a>
 					</section>
 				</section>
 				<section class="poker-chip"></section>

@@ -25,7 +25,13 @@
 					<li><a href="gallery.php">Galeria</a></li>
 					<li><a href="news.php">News</a></li>
 					<li><a href="results.php">Resultados</a></li>
-					<li><a href="contact.php">Contato</a></li>                
+					<li><a href="contact.php">Contato</a></li>   
+					<li class="box-social">
+						<ul class="social">
+							<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						</ul>
+					</li>             
 	          </ul>
 	        </div>
 	        <div class="menu-btn mobile-hidden">
@@ -44,10 +50,12 @@
 					<li><a href="news.php">News</a></li>
 					<li><a href="results.php">Resultados</a></li>
 					<li><a href="contact.php">Contato</a></li>
-				</ul>
-				<ul class="social">
-					<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li class="box-social">
+						<ul class="social">
+							<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						</ul>
+					</li>
 				</ul>
 			</nav>
 		</header>
@@ -79,39 +87,44 @@
 								<div class="item"><input type="submit" name="submit" value="Enviar"></div>
 							</div>
 						</form>
-						<form name="dealer" class="form-type form2">
+						<form action="dealersender.php" name="dealer" class="form-type form2" method="post" enctype="multipart/form-data">
 							<h2>Quero ser dealer</h2>
-							<div class="group">
-								<div class="item"><input type="text" name="name" placeholder="Nome"></div>
-								<div class="item"><input type="email" name="email" placeholder="E-mail"></div>
-								<div class="item"><input type="tel" name="tel" placeholder="Telefone"></div>
-							</div>
-							<div class="group">
-								<div class="item"><input type="text" name="subject" placeholder="Assunto"></div>
-							</div>
-							<div class="group">
-								<div class="item"><textarea placeholder="Mensagem"></textarea></div>
-							</div>
-							<div class="group submit">
-								<div class="item"><input type="submit" name="submit" value="Enviar"></div>
-							</div>
+								<div class="group">
+									<div class="item"><input type="text" class="form-control" name="nome" id="nome" placeholder="Nome:" required></div>
+								</div>
+								<div class="group">
+									<div class="item"><input type="text" class="form-control midLeft" name="rg" id="rg" placeholder="RG:" required></div>
+									<div class="item"><input type="text" class="form-control midRight" name="cpf" id="cpf" placeholder="CPF:" required></div>
+								</div>
+								<div class="group">
+									<div class="item"><input type="text" class="form-control" name="endereco" id="endereco" placeholder="Endereço (Rua/Número/Bairro):" required></div>
+									<div class="item"><input type="text" class="form-control midLeft" name="cidade" id="cidade" placeholder="Cidade:" required></div>
+									<div class="item"><input type="text" class="form-control midRight" name="estado" id="estado" placeholder="Estado:" required></div>
+								</div>
+								<div class="group">
+									<div class="item"><input type="text" class="form-control" name="tempodealer" id="tempodealer" placeholder="Há quanto tempo você trabalha como Dealer?" required></div>
+								</div>
+								<div class="group">
+									<div class="item"><textarea name="modalidades" id="modalidades" class="form-control" cols="20" rows="5" placeholder="Quais modalidades de Poker você é especialista? Descreva." required></textarea></div>
+								</div>
+								<div class="group">
+									<div class="item"><input type="text" class="form-control" name="ondetrabalhou" id="ondetrabalhou" placeholder="Onde você já trabalhou como Dealer?" required></div>
+									<div class="item"><input type="text" class="form-control" name="falaingles" id="falaingles" placeholder="Você fala inglês / espanhol?" required></div>
+									<div class="item"><input type="tel" name="telefone" class="form-control" id="telefone" placeholder="Telefone / WhatsApp:" required></div>
+									<div class="item"><input type="email" name="email" class="form-control" id="email" placeholder="Email para contato:" required></div>
+								</div>
+								<div class="group">
+									<div class="item"><textarea name="observacoes" id="observacoes" class="form-control" cols="20" rows="5" placeholder="Observações finais:" required></textarea></div>
+								</div>
+								<div class="group">
+									<div class="item"><p for=""><strong>Anexar Imagem:</strong></p><input type="file" name="fileUpload" id="fileUpload" value="Anexar foto" required></div>
+								</div>
+								<button type="submit" class="btn btn-submitDealer">Enviar</button>
+							</form>
 						</form>
 						<form name="satellites" class="form-type form3">
-							<h2>Quero ser satélite</h2>
-							<div class="group">
-								<div class="item"><input type="text" name="name" placeholder="Nome"></div>
-								<div class="item"><input type="email" name="email" placeholder="E-mail"></div>
-								<div class="item"><input type="tel" name="tel" placeholder="Telefone"></div>
-							</div>
-							<div class="group">
-								<div class="item"><input type="text" name="subject" placeholder="Assunto"></div>
-							</div>
-							<div class="group">
-								<div class="item"><textarea placeholder="Mensagem"></textarea></div>
-							</div>
-							<div class="group submit">
-								<div class="item"><input type="submit" name="submit" value="Enviar"></div>
-							</div>
+							<p>Para cadastrar o seu satélite clique aqui no link abaixo</p>
+							<a href="http://bit.ly/QueroSerSateliteWSOPBR2016" target="_blank">Cadastre aqui</a>
 						</form>
 					</section>
 					<section class="press-office">

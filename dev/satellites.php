@@ -25,7 +25,13 @@
 					<li><a href="gallery.php">Galeria</a></li>
 					<li><a href="news.php">News</a></li>
 					<li><a href="results.php">Resultados</a></li>
-					<li><a href="contact.php">Contato</a></li>                
+					<li><a href="contact.php">Contato</a></li>   
+					<li class="box-social">
+						<ul class="social">
+							<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						</ul>
+					</li>             
 	          </ul>
 	        </div>
 	        <div class="menu-btn mobile-hidden">
@@ -44,10 +50,12 @@
 					<li><a href="news.php">News</a></li>
 					<li><a href="results.php">Resultados</a></li>
 					<li><a href="contact.php">Contato</a></li>
-				</ul>
-				<ul class="social">
-					<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li class="box-social">
+						<ul class="social">
+							<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						</ul>
+					</li>
 				</ul>
 			</nav>
 		</header>
@@ -56,7 +64,8 @@
 				<article class="satellites">
 					<section class="list">
 						<h2>Satélites</h2>
-					<div class="list2">
+						<h3>Em breve mais informações</h3>
+					<div class="list2" style="display: none">
 						<div class="col1">
 						<section class="item">
 							<div class="date"><span>04</span> Ago, 15</div>
@@ -104,7 +113,7 @@
 						</section>
 						</div>
 						</div>
-						<a href="#" class="button2">Ver mais eventos</a>
+						<a href="#" class="button2" style="display: none">Ver mais eventos</a>
 					</section>
 				</article>
 			</section>

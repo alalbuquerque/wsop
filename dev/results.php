@@ -25,7 +25,13 @@
 					<li><a href="gallery.php">Galeria</a></li>
 					<li><a href="news.php">News</a></li>
 					<li><a href="results.php">Resultados</a></li>
-					<li><a href="contact.php">Contato</a></li>                
+					<li><a href="contact.php">Contato</a></li>   
+					<li class="box-social">
+						<ul class="social">
+							<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						</ul>
+					</li>             
 	          </ul>
 	        </div>
 	        <div class="menu-btn mobile-hidden">
@@ -44,10 +50,12 @@
 					<li><a href="news.php">News</a></li>
 					<li><a href="results.php">Resultados</a></li>
 					<li><a href="contact.php">Contato</a></li>
-				</ul>
-				<ul class="social">
-					<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li class="box-social">
+						<ul class="social">
+							<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						</ul>
+					</li>
 				</ul>
 			</nav>
 		</header>
@@ -58,45 +66,44 @@
 					<h2>Resultados</h2>
 						<section class="item">
 							<div class="position">01</div>
-							<p>Mauris at pretium arcu.</p>
+							<p>Evento Não finalizado.</p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">02</div>
-							<p>Mauris at pretium arcu.</p>
+							<p>Evento Não finalizado.</p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">03</div>
-							<p>Mauris at pretium arcu. </p>
+							<p>Evento Não finalizado. </p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">04</div>
-							<p>Mauris at pretium arcu. </p>
+							<p>Evento Não finalizado. </p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">05</div>
-							<p>Mauris at pretium arcu. </p>
+							<p>Evento Não finalizado. </p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">06</div>
-							<p>Mauris at pretium arcu. </p>
+							<p>Evento Não finalizado. </p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">07</div>
-							<p>Mauris at pretium arcu. </p>
+							<p>Evento Não finalizado. </p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">08</div>
-							<p>Mauris at pretium arcu. </p>
+							<p>Evento Não finalizado. </p>
 							<div class="point">000</div>
 						</section>
-						<a href="#" class="button2">Ver mais</a>
 					</section>
 				</article>
 			</section>

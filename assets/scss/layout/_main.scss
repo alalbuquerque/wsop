@@ -18,8 +18,8 @@ html, body {
     }
     //overflow-x: hidden;
     ::selection {
-      background: $secondary-color; /* WebKit/Blink Browsers */
-      color: $primary-color;
+      background: $quaternary-color; /* WebKit/Blink Browsers */
+      color: $lighter-color;
     }
     * {
       box-sizing: border-box;
@@ -85,7 +85,7 @@ html, body {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.72);
+    background-color: rgba(0, 0, 0, 0.85);
     ul {
       list-style: none;
       padding: 20% 0;
@@ -217,12 +217,12 @@ html, body {
         .list {    
           position: absolute;
           z-index: 99999;
-          bottom: 10%;
+          bottom: 0;
           width: 40%;
           right: 20%;
           z-index: 99999;
 
-          @media (max-width: $desktop-large) {
+          @media (max-width: $mobile-large) {
             width: 100%;
             right: 0;
           }
@@ -267,7 +267,8 @@ html, body {
     .box {
       width: 35%;
       margin: 0 auto;
-      padding-top: 215px;
+      padding-top: 215px;    
+      z-index: 99;
 
       @media (max-width: $mobile-large) {
         padding-right: 0;
@@ -351,7 +352,7 @@ html, body {
     }
     .menu {
       justify-content: space-between;
-      width: 80%;
+      width: 100%;
       align-items: center;
       margin: 20px auto;
       position: relative;
@@ -368,15 +369,21 @@ html, body {
         }
       }
     }
-
+    .box-social {
+      width: 65px;
+      height: 40px;
+    }
     .social {
       position: absolute;
       justify-content: space-between;
       align-items: center;
       width: 60px;
       right: 0;
-          top: 50%;
-    margin-top: -20px;
+      top: 50%;
+      margin-top: -20px;
+      @media (max-width: $desktop-large) {
+        top: 0;
+      }
       a {
         color: #FFFFFF;
         font-size: 28px;
@@ -390,6 +397,9 @@ html, body {
     background-position: top center;
     padding-top: 320px;
     position: relative;
+    @media (max-width: $mobile-large) {
+      padding-top: 225px;
+    }
     article {
       background-image: url('../images/background-content.jpg');
       min-height: 591px;
@@ -592,6 +602,7 @@ html, body {
     p {
       font-size: 14px;
       font-weight: 100;
+      margin-bottom: 30px; 
     }
     .plus {
       background-image: url('../images/plus.png');
@@ -669,8 +680,8 @@ html, body {
       height: 1710px;
       width: 100%;
       max-width: 1440px;
-      @media (max-width: $desktop-large) {
-      height: 100%;
+      @media (max-width: $mobile-large) {
+        height: 100%;
       }
     }
     li {
@@ -678,8 +689,11 @@ html, body {
       border: 0;
       max-width: 230px;
       width: 20%;
-      @media (max-width: $desktop-large) {
-        width: 100%;
+      @media (max-width: $mobile-large) {
+        width: 100%!important;
+      }
+      @media (max-width: $wide-medium) {
+        width: 19%;
       }
     }
     img {     
@@ -689,11 +703,14 @@ html, body {
     }
   }
   #satellites {
+        margin-bottom: 30px;
     .active {
       display: flex;
+      min-height: 200px;
       @media (max-width: $desktop-large) {
         flex-direction: column;
         width: 100%;
+        min-height: 400px;
       }
 
     }
@@ -1013,6 +1030,11 @@ html, body {
         padding: 12px 20px;
         font-size: 18px;
       }
+      input[type="radio"] {
+        height: 25px;
+        width: 25px;
+        margin-right: 10px;
+      }
       input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
         color: #FFFFFF;
       }
@@ -1020,7 +1042,13 @@ html, body {
         display: none;
         &.active {
           display: block;
+          margin: 100px auto;
         }
+      } 
+      a {
+        color: #FFFFFF;
+        font-size: 26px;
+        text-decoration: underline;
       }
       label {
         font-size: 26px;
@@ -1128,6 +1156,12 @@ html, body {
       font-size: 25px;
     }
   }
+  .grade {
+    font-size: 24px;
+    a {
+      text-decoration: underline;
+    }
+  }
   footer {
     background-color: $tertiary-color;
     padding: 80px 10% 3%;
@@ -1139,7 +1173,7 @@ html, body {
           flex-direction: column;
           text-align: center;
           position: relative;
-          padding-top: 140px;
+          padding-top: 175px;
           align-items: center;
         }
     ul {
@@ -1187,7 +1221,7 @@ html, body {
         @media (max-width: $mobile-large) {
           width: 100%;
           position: absolute;
-          top: 85px;
+          top: 110px;
           max-width: 130px;
         }
       a {
@@ -1230,8 +1264,16 @@ html, body {
         @media (max-width: $mobile-large) {
           width: 100%;
           margin-top: 50px;
+          margin-bottom: 30px;
         }
-
+        ul {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+        }
+        li {
+          margin: 10px;
+        }
         .image {
           width: 100%;    
           max-width: 150px;

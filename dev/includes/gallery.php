@@ -9,5 +9,5 @@
 		<li><img src="dist/images/item6.png" alt=""></li>
 		<li><img src="dist/images/item7.png" alt=""></li>
 	</ul>
-	<a href="#">Ver mais</a>
+	<a href="gallery.php">Ver mais</a>
 </section>

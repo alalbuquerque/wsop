@@ -17,12 +17,13 @@
 			<section class="partner">
 				<h3>Apoio</h3>
 				<ul>
-					<li><div class="image"><img src="dist/images/logoreal.png" width="100%"></div></li>
+                              <li><div class="image"><img src="dist/images/logoreal.png" width="100%"></div></li>
+                              <li><div class="image"><img src="dist/images/copag.png" width="100%"></div></li>
 				</ul>
 			</section>
 			<ul class="social-footer">
-				<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-				<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/wsopbrazil/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/wsopbrazil/?fref=ts" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 			</ul>
 		</footer>
 
@@ -45,10 +46,11 @@
         });
 
        $('.container1').click(function (e){
-       		e.preventDefault();
+       		//e.preventDefault();
        		if($(this).hasClass('active')) {
        			$(this).removeClass('active');
        		} else {
+       			e.preventDefault();
        			$(this).addClass('active');
        		}
        });

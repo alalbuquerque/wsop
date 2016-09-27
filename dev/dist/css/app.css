@@ -13065,12 +13065,12 @@ html.loading,body.loading {
 	position: relative;
 }
 html ::-moz-selection,body ::-moz-selection {
-	background: #0e0c19;
-	color: #2a2045;
+	background: #13888f;
+	color: #ffffff;
 }
 html ::selection,body ::selection {
-	background: #0e0c19;
-	color: #2a2045;
+	background: #13888f;
+	color: #ffffff;
 }
 html *,body * {
 	box-sizing: border-box;
@@ -13137,7 +13137,7 @@ main {
 	position: fixed;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.72);
+	background-color: rgba(0, 0, 0, 0.85);
 }
 .menu-mobile ul {
 	list-style: none;
@@ -13283,13 +13283,13 @@ main {
 .home article .list {
 	position: absolute;
 	z-index: 99999;
-	bottom: 10%;
+	bottom: 0;
 	width: 40%;
 	right: 20%;
 	z-index: 99999;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 768px) {
 
 	.home article .list {
 		width: 100%;
@@ -13344,6 +13344,7 @@ main {
 	width: 35%;
 	margin: 0 auto;
 	padding-top: 215px;
+	z-index: 99;
 }
 
 @media (max-width: 768px) {
@@ -13450,7 +13451,7 @@ header nav ul {
 header .menu {
 	-ms-flex-pack: justify;
 	    justify-content: space-between;
-	width: 80%;
+	width: 100%;
 	-ms-flex-align: center;
 	    -ms-grid-row-align: center;
 	    align-items: center;
@@ -13469,6 +13470,10 @@ header .menu a.active {
 	background-position: top center;
 	height: 30px;
 }
+header .box-social {
+	width: 65px;
+	height: 40px;
+}
 header .social {
 	position: absolute;
 	-ms-flex-pack: justify;
@@ -13481,6 +13486,14 @@ header .social {
 	top: 50%;
 	margin-top: -20px;
 }
+
+@media (max-width: 1280px) {
+
+	header .social {
+		top: 0;
+	}
+}
+
 header .social a {
 	color: #FFFFFF;
 	font-size: 28px;
@@ -13493,6 +13506,14 @@ header .social a {
 	padding-top: 320px;
 	position: relative;
 }
+
+@media (max-width: 768px) {
+
+	.inner-content {
+		padding-top: 225px;
+	}
+}
+
 .inner-content article {
 	background-image: url("../images/background-content.jpg");
 	min-height: 591px;
@@ -13735,6 +13756,7 @@ article.news h4 {
 article.news p {
 	font-size: 14px;
 	font-weight: 100;
+	margin-bottom: 30px;
 }
 article.news .plus {
 	background-image: url("../images/plus.png");
@@ -13826,7 +13848,7 @@ article.gallery ul {
 	max-width: 1440px;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 768px) {
 
 	article.gallery ul {
 		height: 100%;
@@ -13840,10 +13862,18 @@ article.gallery li {
 	width: 20%;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 768px) {
 
 	article.gallery li {
-		width: 100%;
+		width: 100% !important;
+	}
+}
+
+
+@media (max-width: 1440px) {
+
+	article.gallery li {
+		width: 19%;
 	}
 }
 
@@ -13852,9 +13882,13 @@ article.gallery img {
 	height: auto;
 	max-width: 230px;
 }
+#satellites {
+	margin-bottom: 30px;
+}
 #satellites .active {
 	display: -ms-flexbox;
 	display: flex;
+	min-height: 200px;
 }
 
 @media (max-width: 1280px) {
@@ -13863,6 +13897,7 @@ article.gallery img {
 		-ms-flex-direction: column;
 		    flex-direction: column;
 		width: 100%;
+		min-height: 400px;
 	}
 }
 
@@ -14255,6 +14290,11 @@ article.dairy .plus {
 	padding: 12px 20px;
 	font-size: 18px;
 }
+.contact input[type="radio"] {
+	height: 25px;
+	width: 25px;
+	margin-right: 10px;
+}
 .contact input::-webkit-input-placeholder,.contact textarea::-webkit-input-placeholder {
 	color: #FFFFFF;
 }
@@ -14263,6 +14303,12 @@ article.dairy .plus {
 }
 .contact .form-type.active {
 	display: block;
+	margin: 100px auto;
+}
+.contact a {
+	color: #FFFFFF;
+	font-size: 26px;
+	text-decoration: underline;
 }
 .contact label {
 	font-size: 26px;
@@ -14402,6 +14448,12 @@ article.about h2 {
 article.about h3,article.about p {
 	font-size: 25px;
 }
+.grade {
+	font-size: 24px;
+}
+.grade a {
+	text-decoration: underline;
+}
 footer {
 	background-color: #060f2e;
 	padding: 80px 10% 3%;
@@ -14419,7 +14471,7 @@ footer {
 		    flex-direction: column;
 		text-align: center;
 		position: relative;
-		padding-top: 140px;
+		padding-top: 175px;
 		-ms-flex-align: center;
 		    -ms-grid-row-align: center;
 		    align-items: center;
@@ -14491,7 +14543,7 @@ footer .social-footer {
 	footer .social-footer {
 		width: 100%;
 		position: absolute;
-		top: 85px;
+		top: 110px;
 		max-width: 130px;
 	}
 }
@@ -14551,9 +14603,21 @@ footer .partner {
 	footer .partner {
 		width: 100%;
 		margin-top: 50px;
+		margin-bottom: 30px;
 	}
 }
 
+footer .partner ul {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: start;
+	    justify-content: flex-start;
+	-ms-flex-align: center;
+	    align-items: center;
+}
+footer .partner li {
+	margin: 10px;
+}
 footer .partner .image {
 	width: 100%;
 	max-width: 150px;

@@ -16,30 +16,16 @@
 			<div id="carousel-id" class="carousel slide" data-ride="carousel">
 				<?php include 'includes/header-home.php'; ?>
 				<ol class="carousel-indicators">
-					<li data-target="#carousel-id" data-slide-to="0" class=""></li>
-					<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+					<li data-target="#carousel-id" data-slide-to="0" class="active"></li>
 				</ol>
 				<div class="carousel-inner">
-					<div class="item fadeInLeft" style="background-image: url('dist/images/banner.jpg')">
-						<img alt="First slide" class="destaque" src="dist/images/banner.jpg">
-							<div class="carousel-caption">
-								<div class="left">
-									<h2>próximo evento</h2>
-									<p>Lorem ipsum dolor sit amet</p>
-									<a href="#">Participe</a>
-								</div>
-								<div class="right">
-									<h1>wsop <span>São Paulo</span> / Brazil</h1>
-								</div>
-							</div>
-					</div>
 					<div class="item fadeInLeft active" style="background-image: url('dist/images/banner.jpg')">
 						<img alt="First slide" class="destaque" src="dist/images/banner.jpg">
 							<div class="carousel-caption">
 								<div class="left">
 									<h2>próximo evento</h2>
-									<p>Lorem ipsum dolor sit amet</p>
-									<a href="#">Participe</a>
+									<p>WSOP São Paulo</p>
+									<a href="diary.php">Participe</a>
 								</div>
 								<div class="right">
 									<h1>wsop <span>São Paulo</span> / Brazil</h1>
@@ -52,9 +38,10 @@
 		<section class="content">
 			<section class="top-content">
 				<div class="box">
-					<h3>o  maior  evento  de  poker  do  mundo, agora  no  brasil.</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer volutpat bibendum mollis. Nulla non urna tincidunt, ullamcorper velit mollis, sollicitudin dui. Nulla et enim lectus. Nulla in quam at arcu pulvinar commodo. Duis eget massa quis sapien posuere fringilla vitae congue quam. Proin augue augue, cursus vitae semper eu, laoreet quis eros. Proin at elit nec arcu eleifend scelerisque. Pellentesque habitant morbi tristique .</p>
-					<a href="#">Veja mais</a>
+					<h3>o maior evento de poker do mundo, agora no brasil.</h3>
+					<p>Prepare-se... A Copa do Mundo de Poker chegou ao Brasil
+O mais famoso e renomado campeonato de poker do mundo chega ao Brasil pela primeira vez direto de Las Vegas, EUA. Uma Joint Venture entre LiveBox e Move, trazem o “World Series of Poker” (WSOP) para sua 1ª edição em terras brasileiras. O evento corresponde à maior série de Poker existente, sendo considerada a Copa do Mundo da modalidade.</p>
+					<a href="about.php">Veja mais</a>
 				</div>
 				<div class="box2">
 					<h4 class="title">Mínimo garantido Main Event:</h4>
@@ -75,25 +62,11 @@
 					<h2>Próximo Satélite</h2>
 						<div id="satellites" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
-								<div class="item">
-									<div class="date"><span>04</span> Ago, 15</div>
-									<div class="content">
-										<h3>Lorem ipsum dolor sit amet </h3>
-										<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
-									</div>
-								</div>
-								<div class="item">
-									<div class="date"><span>04</span> Ago, 15</div>
-									<div class="content">
-										<h3>Lorem ipsum dolor sit amet </h3>
-										<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
-									</div>
-								</div>
 								<div class="item active">
-									<div class="date"><span>04</span> Ago, 15</div>
+									<div class="date"><span>ND</span> Ago, 15</div>
 									<div class="content">
-										<h3>Lorem ipsum dolor sit amet </h3>
-										<p>Mauris at pretium arcu. Aenean mollis rutrum nunc, vel sagittis enim porttitor sed. Proin nec aliquam dolor, ut consectetur elit.</p>
+										<h3>Em breve...</h3>
+										<p>Evento ainda não definido.</p>
 									</div>
 								</div>
 							</div>

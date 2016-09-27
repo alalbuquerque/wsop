@@ -25,7 +25,13 @@
 					<li><a href="gallery.php">Galeria</a></li>
 					<li><a href="news.php">News</a></li>
 					<li><a href="results.php">Resultados</a></li>
-					<li><a href="contact.php">Contato</a></li>                
+					<li><a href="contact.php">Contato</a></li>   
+					<li class="box-social">
+						<ul class="social">
+							<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						</ul>
+					</li>             
 	          </ul>
 	        </div>
 	        <div class="menu-btn mobile-hidden">
@@ -44,10 +50,12 @@
 					<li><a href="news.php">News</a></li>
 					<li><a href="results.php">Resultados</a></li>
 					<li><a href="contact.php">Contato</a></li>
-				</ul>
-				<ul class="social">
-					<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li class="box-social">
+						<ul class="social">
+							<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						</ul>
+					</li>
 				</ul>
 			</nav>
 		</header>
