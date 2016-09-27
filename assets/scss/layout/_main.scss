@@ -30,6 +30,10 @@ html, body {
   }
   .conteudo {
     display: none;
+    img {
+      width: 100%;
+      max-width: 500px;
+    }
   }
   .active .conteudo {
     display: block;
@@ -602,7 +606,7 @@ html, body {
     p {
       font-size: 14px;
       font-weight: 100;
-      margin-bottom: 30px; 
+      margin-bottom: 20px!important; 
     }
     .plus {
       background-image: url('../images/plus.png');
@@ -667,6 +671,7 @@ html, body {
   }
   article.gallery {
     width: 100%;
+    padding-top: 0;
     .list {
       max-width: 1440px;
       width: 100%;
@@ -834,6 +839,7 @@ html, body {
     h2 {
       font-size: 36px;
       margin-bottom: 30px;
+          margin-top: -60px;
     }
   }
   article.dairy {
@@ -989,7 +995,7 @@ html, body {
     .item + .item {
       border-top: 1px solid #18112c;
       margin-top: 25px;
-      padding: 25px 0;
+      padding: 22px 0;
     }
     .image {
       border: 4px solid #3c3c3c;

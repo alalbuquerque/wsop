@@ -13081,6 +13081,10 @@ html.menu-opened,body.menu-opened {
 .conteudo {
 	display: none;
 }
+.conteudo img {
+	width: 100%;
+	max-width: 500px;
+}
 .active .conteudo {
 	display: block;
 	margin: 55px auto;
@@ -13756,7 +13760,7 @@ article.news h4 {
 article.news p {
 	font-size: 14px;
 	font-weight: 100;
-	margin-bottom: 30px;
+	margin-bottom: 20px !important;
 }
 article.news .plus {
 	background-image: url("../images/plus.png");
@@ -13829,6 +13833,7 @@ article.news a {
 }
 article.gallery {
 	width: 100%;
+	padding-top: 0;
 }
 article.gallery .list {
 	max-width: 1440px;
@@ -14048,6 +14053,7 @@ article.satellites .item + .item {
 article.satellites h2 {
 	font-size: 36px;
 	margin-bottom: 30px;
+	margin-top: -60px;
 }
 article.dairy {
 	width: 100%;
@@ -14240,7 +14246,7 @@ article.dairy .plus {
 .news .item + .item {
 	border-top: 1px solid #18112c;
 	margin-top: 25px;
-	padding: 25px 0;
+	padding: 22px 0;
 }
 .news .image {
 	border: 4px solid #3c3c3c;
