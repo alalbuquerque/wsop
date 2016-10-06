@@ -18,7 +18,6 @@
 				<?php include 'includes/header-home.php'; ?>
 				<div class="carousel-inner">
 					<div class="item fadeInLeft active" style="background-image: url('dist/images/banner.jpg')">
-						<img alt="First slide" class="destaque" src="dist/images/banner.jpg">
 							<div class="carousel-caption">
 								<div class="left">
 									<h2>próximo evento</h2>

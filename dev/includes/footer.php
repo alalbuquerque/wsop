@@ -45,7 +45,7 @@
         });
 
  
-
+  
 
        $('.parallax-mirror').parallax();
 
@@ -55,6 +55,15 @@
     var $el = $('.parallax-mirror'); // cache jquery ref
 
     setInterval(function() {
+
+           var windowHeight = $(window).height();
+       var windowWidth = $(window).width();
+       backgroundSize =  windowWidth + 'px' + ' ' + windowHeight + 'px';
+       console.log(backgroundSize);
+       $('#carousel-id').css('height', windowHeight);
+       $('#carousel-id .item').css('background-size', backgroundSize);
+       $('#carousel-id .item').css('height', windowHeight);
+      
       curOffset = $(window).scrollTop();
 
       if(curOffset >= 1100) {

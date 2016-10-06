@@ -13247,7 +13247,7 @@ main {
 	text-align: center;
 	left: 50%;
 	text-decoration: none;
-	margin-left: -50px;
+	margin-left: -70px;
 }
 
 @media (max-width: 768px) {
@@ -14795,7 +14795,7 @@ article.dairy .plus {
 .gallery #instagram-wrapper li:nth-child(6) {
 	display: block;
 }
-.gallery #instagram-wrapper li:nth-child(8) {
+.gallery #instagram-wrapper li:nth-child(7) {
 	display: block;
 }
 .gallery ul {
