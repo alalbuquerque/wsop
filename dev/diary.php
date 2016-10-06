@@ -14,7 +14,7 @@
 	<main>
 	<header>
 			<div class="logo mobile-hidden">
-	        	<a href="#"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a>
+	        	<a href="index.php"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a>
 	        </div>
 	        <div class="menu-mobile mobile-hidden ng-cloak">
 	          <ul>
@@ -28,8 +28,8 @@
 					<li><a href="contact.php">Contato</a></li>   
 					<li class="box-social">
 						<ul class="social">
-							<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.instagram.com/wsopbrazil/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.facebook.com/wsopbrazil/?fref=ts" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						</ul>
 					</li>             
 	          </ul>
@@ -45,15 +45,15 @@
 					<li><a href="about.php">Sobre</a></li>
 					<li><a href="diary.php">Agenda</a></li>
 					<li><a href="satellites.php">Satélites</a></li>
-					<li><a href="#"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a></li>
+					<li><a href="index.php"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a></li>
 					<li><a href="gallery.php">Galeria</a></li>
 					<li><a href="news.php">News</a></li>
 					<li><a href="results.php">Resultados</a></li>
 					<li><a href="contact.php">Contato</a></li>
 					<li class="box-social">
 						<ul class="social">
-							<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.instagram.com/wsopbrazil/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.facebook.com/wsopbrazil/?fref=ts" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						</ul>
 					</li>
 				</ul>
@@ -61,21 +61,21 @@
 		</header>
 		<section class="content">
 			<section class="inner-content">
+				<div class="title2"><h2>Grade / Agenda</h2></div>
 				<article class="dairy">
 					<section class="list">
-						<h2>Grade / Agenda</h2>
 						<section class="container1">
 							<div class="item">
-								<div class="date"><span>26</span> Out, 16</div>
-								<div class="content">
-									<a href="#">
+								<a href="#diary1" class="link-news">
+									<div class="date"><span>26</span> Out, 16</div>
+									<div class="content">
 										<h3>Evento do dia 26 de Outubro de 2016</h3>
 										<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
-									</a>
-								</div>
-								<a href="#" class="plus">Mais</a>
+									</div>
+									<span class="plus">Mais</span>
+								</a>
 							</div>
-							<div class="conteudo">
+							<div class="conteudo" id="diary1">
 								<div class="table-responsive">
 									<table class="table grade">
 										<tr>
@@ -155,16 +155,16 @@
 						</section>
 						<section class="container1">
 							<div class="item">
-								<div class="date"><span>27</span> Out, 16</div>
-								<div class="content">
-									<a href="#">
-										<h3>Evento do dia 27 de Outubro de 2016</h3>
-										<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
-									</a>
-								</div>
-								<a href="#" class="plus">Mais</a>
+								<a href="#diary2" class="link-news">
+									<div class="date"><span>27</span> Out, 16</div>
+									<div class="content">
+											<h3>Evento do dia 27 de Outubro de 2016</h3>
+											<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
+									</div>
+									<span class="plus">Mais</span>
+								</a>
 							</div>
-							<div class="conteudo">
+							<div class="conteudo" id="diary2">
 								<div class="table-responsive">
 									<table class="table grade">
 										<tr>
@@ -254,16 +254,16 @@
 						</section>
 						<section class="container1">
 							<div class="item">
-								<div class="date"><span>28</span> Out, 16</div>
-								<div class="content">
-									<a href="#">
-										<h3>Evento do dia 28 de Outubro de 2016</h3>
-										<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
-									</a>
-								</div>
-								<a href="#" class="plus">Mais</a>
+								<a href="#diary3" class="link-news">
+									<div class="date"><span>28</span> Out, 16</div>
+									<div class="content">
+											<h3>Evento do dia 28 de Outubro de 2016</h3>
+											<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
+									</div>
+									<span class="plus">Mais</span>
+								</a>
 							</div>
-							<div class="conteudo">
+							<div class="conteudo" id="diary3">
 								<div class="table-responsive">
 									<table class="table grade">
 										<tr>
@@ -343,16 +343,16 @@
 						</section>
 						<section class="container1">
 							<div class="item">
-								<div class="date"><span>29</span> Out, 16</div>
-								<div class="content">
-									<a href="#">
-										<h3>Evento do dia 29 de Outubro de 2016</h3>
-										<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
-									</a>
-								</div>
-								<a href="#" class="plus">Mais</a>
+								<a href="#diary4" class="link-news">
+									<div class="date"><span>29</span> Out, 16</div>
+									<div class="content">
+											<h3>Evento do dia 29 de Outubro de 2016</h3>
+											<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
+									</div>
+									<span class="plus">Mais</span>
+								</a>
 							</div>
-							<div class="conteudo">
+							<div class="conteudo" id="diary4">
 								<div class="table-responsive">
 									<table class="table grade">
 										<tr>
@@ -432,16 +432,16 @@
 						</section>
 						<section class="container1">
 							<div class="item">
-								<div class="date"><span>30</span> Out, 16</div>
-								<div class="content">
-									<a href="#">
-										<h3>Evento do dia 30 de Outubro de 2016</h3>
-										<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
-									</a>
-								</div>
-								<a href="#" class="plus">Mais</a>
+								<a href="#diary5" class="link-news">
+									<div class="date"><span>30</span> Out, 16</div>
+									<div class="content">
+											<h3>Evento do dia 30 de Outubro de 2016</h3>
+											<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
+									</div>
+									<span class="plus">Mais</span>
+								</a>
 							</div>
-							<div class="conteudo">
+							<div class="conteudo" id="diary5">
 								<div class="table-responsive">
 									<table class="table grade">
 										<tr>
@@ -491,16 +491,16 @@
 						</section>
 						<section class="container1">
 							<div class="item">
-								<div class="date"><span>31</span> Out, 16</div>
-								<div class="content">
-									<a href="#">
-										<h3>Evento do dia 28 de Outubro de 2016</h3>
-										<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
-									</a>
-								</div>
-								<a href="#" class="plus">Mais</a>
+								<a href="#diary6" class="link-news">
+									<div class="date"><span>31</span> Out, 16</div>
+									<div class="content">
+											<h3>Evento do dia 28 de Outubro de 2016</h3>
+											<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
+									</div>
+									<span class="plus">Mais</span>
+								</a>
 							</div>
-							<div class="conteudo">
+							<div class="conteudo" id="diary6">
 								<div class="table-responsive">
 									<table class="table grade">
 										<tr>
@@ -570,16 +570,16 @@
 						</section>
 						<section class="container1">
 							<div class="item">
-								<div class="date"><span>01</span> Nov, 16</div>
-								<div class="content">
-									<a href="#">
-										<h3>Evento do dia 28 de Outubro de 2016</h3>
-										<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
-									</a>
-								</div>
-								<a href="#" class="plus">Mais</a>
+								<a href="#diary7" class="link-news">
+									<div class="date"><span>01</span> Nov, 16</div>
+									<div class="content">
+											<h3>Evento do dia 28 de Outubro de 2016</h3>
+											<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
+									</div>
+									<span class="plus">Mais</span>
+								</a>
 							</div>
-							<div class="conteudo">
+							<div class="conteudo" id="diary7">
 								<div class="table-responsive">
 									<table class="table grade">
 										<tr>
@@ -659,16 +659,16 @@
 						</section>
 						<section class="container1">
 							<div class="item">
-								<div class="date"><span>02</span> Nov, 16</div>
-								<div class="content">
-									<a href="#">
-										<h3>Evento do dia 28 de Outubro de 2016</h3>
-										<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
-									</a>
-								</div>
-								<a href="#" class="plus">Mais</a>
+								<a href="#diary8" class="link-news">
+									<div class="date"><span>02</span> Nov, 16</div>
+									<div class="content">
+											<h3>Evento do dia 28 de Outubro de 2016</h3>
+											<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
+									</div>
+									<span class="plus">Mais</span>
+								</a>
 							</div>
-							<div class="conteudo">
+							<div class="conteudo" id="diary8">
 								<div class="table-responsive">
 									<table class="table grade">
 										<tr>
@@ -760,7 +760,11 @@
 					</section>
 				</article>
 			</section>
-			<?php include 'includes/results-news.php'; ?>
+			<section class="results-news">
+				<?php include 'includes/results.php'; ?>
+				<?php include 'includes/news.php'; ?>
+				<section class="poker-chip"></section>
+			</section>
 			<?php include 'includes/gallery.php'; ?>
 			</section>
 		</section>

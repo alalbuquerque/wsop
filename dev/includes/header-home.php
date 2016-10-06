@@ -1,7 +1,7 @@
 
 		<header>
 			<div class="logo mobile-hidden">
-	        	<a href="#"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a>
+	        	<a href="#"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo" width="100%"></a>
 	        </div>
 	        <div class="menu-mobile mobile-hidden ng-cloak" data-ng-show="mainCtrl.menu.opened">
 	          <ul>

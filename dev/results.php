@@ -14,7 +14,7 @@
 	<main>
 	<header>
 			<div class="logo mobile-hidden">
-	        	<a href="#"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a>
+	        	<a href="index.php"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a>
 	        </div>
 	        <div class="menu-mobile mobile-hidden ng-cloak">
 	          <ul>
@@ -28,8 +28,8 @@
 					<li><a href="contact.php">Contato</a></li>   
 					<li class="box-social">
 						<ul class="social">
-							<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.instagram.com/wsopbrazil/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.facebook.com/wsopbrazil/?fref=ts" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						</ul>
 					</li>             
 	          </ul>
@@ -45,15 +45,15 @@
 					<li><a href="about.php">Sobre</a></li>
 					<li><a href="diary.php">Agenda</a></li>
 					<li><a href="satellites.php">Satélites</a></li>
-					<li><a href="#"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a></li>
+					<li><a href="index.php"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a></li>
 					<li><a href="gallery.php">Galeria</a></li>
 					<li><a href="news.php">News</a></li>
 					<li><a href="results.php">Resultados</a></li>
 					<li><a href="contact.php">Contato</a></li>
 					<li class="box-social">
 						<ul class="social">
-							<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.instagram.com/wsopbrazil/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.facebook.com/wsopbrazil/?fref=ts" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						</ul>
 					</li>
 				</ul>
@@ -61,53 +61,57 @@
 		</header>
 		<section class="content">
 			<section class="inner-content">
+				<div class="title2"><h2>Resultados</h2></div>
 				<article class="results">
 					<section class="list">
-					<h2>Resultados</h2>
 						<section class="item">
 							<div class="position">01</div>
-							<p>Evento Não finalizado.</p>
+							<p>N/D</p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">02</div>
-							<p>Evento Não finalizado.</p>
+							<p>N/D</p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">03</div>
-							<p>Evento Não finalizado. </p>
+							<p>N/D</p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">04</div>
-							<p>Evento Não finalizado. </p>
+							<p>N/D</p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">05</div>
-							<p>Evento Não finalizado. </p>
+							<p>N/D</p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">06</div>
-							<p>Evento Não finalizado. </p>
+							<p>N/D</p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">07</div>
-							<p>Evento Não finalizado. </p>
+							<p>N/D</p>
 							<div class="point">000</div>
 						</section>
 						<section class="item">
 							<div class="position">08</div>
-							<p>Evento Não finalizado. </p>
+							<p>N/D</p>
 							<div class="point">000</div>
 						</section>
 					</section>
 				</article>
 			</section>
-			<?php include 'includes/results-news.php'; ?>
+			<section class="results-news">
+				<?php include 'includes/dairy.php'; ?>
+				<?php include 'includes/news.php'; ?>
+				<section class="poker-chip"></section>
+			</section>
 			<?php include 'includes/gallery.php'; ?>
 			</section>
 		</section>

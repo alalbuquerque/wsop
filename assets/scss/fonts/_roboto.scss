@@ -1,1 +1,53 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900,900');
+@mixin fontdef($FontType: "Regular") {
+  src: url('../fonts/roboto/#{$FontType}/Roboto-#{$FontType}.eot');
+  src: url('../fonts/roboto/#{$FontType}/Roboto-#{$FontType}.eot') format('embedded-opentype'),
+       url('../fonts/roboto/#{$FontType}/Roboto-#{$FontType}.woff2') format('woff2'),
+       url('../fonts/roboto/#{$FontType}/Roboto-#{$FontType}.woff') format('woff'),
+       url('../fonts/roboto/#{$FontType}/Roboto-#{$FontType}.ttf') format('truetype'),
+       url('../fonts/roboto/#{$FontType}/Roboto-#{$FontType}.svg') format('svg');
+}
+////////////////
+//  REGULAR   //
+////////////////
+@font-face {
+  font-family: 'Roboto';
+  @include fontdef("Regular");
+  font-weight: normal;
+  font-style: normal;
+}
+///////////////////
+//  ULTRALIGHT   //
+///////////////////
+@font-face {
+  font-family: 'Roboto';
+  @include fontdef("Light");
+  font-weight: 100;
+  font-style: normal;
+}
+/////////////
+//  THIN   //
+/////////////
+@font-face {
+  font-family: 'Roboto';
+  @include fontdef("Thin");
+  font-weight: 200;
+  font-style: normal;
+}
+/////////////
+//  BOLD   //
+/////////////
+@font-face {
+  font-family: 'Roboto';
+  @include fontdef("Bold");
+  font-weight: 700;
+  font-style: normal;
+}
+////////////////
+//  Book   //
+////////////////
+@font-face {
+  font-family: 'Roboto';
+  @include fontdef("Medium");
+  font-weight: 300;
+  font-style: normal;
+}
