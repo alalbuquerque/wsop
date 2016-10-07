@@ -12,15 +12,15 @@
 </head>
 <body>
 	<main>
-	<header>
+		<header>
 			<div class="logo mobile-hidden">
-	        	<a href="index.php"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a>
-	        </div>
-	        <div class="menu-mobile mobile-hidden ng-cloak">
-	          <ul>
+				<a href="index.php"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a>
+			</div>
+			<div class="menu-mobile mobile-hidden ng-cloak">
+				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">Sobre</a></li>
-					<li><a href="diary.php">Agenda</a></li>
+					<li><a href="diary.php">Grade</a></li>
 					<li><a href="satellites.php">Satélites</a></li>
 					<li><a href="gallery.php">Galeria</a></li>
 					<li><a href="news.php">News</a></li>
@@ -32,30 +32,31 @@
 							<li><a href="https://www.facebook.com/wsopbrazil/?fref=ts" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						</ul>
 					</li>             
-	          </ul>
-	        </div>
-	        <div class="menu-btn mobile-hidden">
-	          <div class="menu-btn__bar" data-ng-class="{opened: mainCtrl.menu.opened}"></div>
-	          <div class="menu-btn__bar" data-ng-class="{opened: mainCtrl.menu.opened}"></div>
-	          <div class="menu-btn__bar" data-ng-class="{opened: mainCtrl.menu.opened}"></div>
-	        </div><!-- menu btn --> 
+				</ul>
+			</div>
+			<div class="menu-btn mobile-hidden">
+				<div class="menu-btn__bar" data-ng-class="{opened: mainCtrl.menu.opened}"></div>
+				<div class="menu-btn__bar" data-ng-class="{opened: mainCtrl.menu.opened}"></div>
+				<div class="menu-btn__bar" data-ng-class="{opened: mainCtrl.menu.opened}"></div>
+			</div><!-- menu btn --> 
 			<nav role="menu" class="desktop-hidden">
 				<ul class="menu">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">Sobre</a></li>
-					<li><a href="diary.php">Agenda</a></li>
+					<li><a href="diary.php">Grade</a></li>
 					<li><a href="satellites.php">Satélites</a></li>
-					<li><a href="index.php"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a></li>
 					<li><a href="gallery.php">Galeria</a></li>
+					<li><a href="#"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a></li>
 					<li><a href="news.php">News</a></li>
 					<li><a href="results.php">Resultados</a></li>
 					<li><a href="contact.php">Contato</a></li>
-					<li class="box-social">
+					<li>
 						<ul class="social">
 							<li><a href="https://www.instagram.com/wsopbrazil/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 							<li><a href="https://www.facebook.com/wsopbrazil/?fref=ts" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						</ul>
 					</li>
+					<li><a href="#"><img src="dist/images/888poker-mini.png" class="logo-mini" alt="888 Poker" role="logo"></a></li>
 				</ul>
 			</nav>
 		</header>
@@ -110,7 +111,7 @@
 							<section class="container1">
 								<div class="item">
 									<a href="#news3" class="link-news">
-									<div class="image"><img src="dist/images/news1.jpg"></div>
+										<div class="image"><img src="dist/images/news1.jpg"></div>
 										<div class="content">
 											<h3>WSOP divulga programação de torneios do Circuit Brazil 2016</h3>
 											<h4>14/09/2016</h4>
@@ -130,13 +131,13 @@
 							</section>
 							<section class="container1">
 								<div class="item">
-										<a href="#news4" class="link-news">
-											<div class="image"><img src="dist/images/news_default.jpg"></div>
-											<div class="content">
-												<h3>WSOP ADDS BRAZIL TO INTERNATIONAL CIRCUIT</h3>
-												<h4>14/09/2016</h4>
-												<p>Brazil Announces first-ever South American Stop for World Series of Poker
-													WSOP Circuit Brazil Runs from October 26 to November 2 in São Paulo</p>
+									<a href="#news4" class="link-news">
+										<div class="image"><img src="dist/images/news_default.jpg"></div>
+										<div class="content">
+											<h3>WSOP ADDS BRAZIL TO INTERNATIONAL CIRCUIT</h3>
+											<h4>14/09/2016</h4>
+											<p>Brazil Announces first-ever South American Stop for World Series of Poker
+												WSOP Circuit Brazil Runs from October 26 to November 2 in São Paulo</p>
 											</div>
 											<span class="plus">Mais</span>
 										</a>
@@ -158,7 +159,7 @@
 								<section class="container1">
 									<div class="item">
 										<a href="#news5" class="link-news">
-										<div class="image"><img src="dist/images/28-08-2016.jpg"></div>
+											<div class="image"><img src="dist/images/28-08-2016.jpg"></div>
 											<div class="content">
 												<h3>World Series Of Poker divulga datas e local de sua etapa no Brasil</h3>
 												<h4>28/08/2016</h4>
@@ -200,7 +201,7 @@
 									<section class="container1">
 										<div class="item">
 											<a href="#news7" class="link-news">
-											<div class="image"><img src="dist/images/01-08-2016.jpg"></div>
+												<div class="image"><img src="dist/images/01-08-2016.jpg"></div>
 												<div class="content">
 													<h3>Após tempestade brasileira no surf, agora é a vez do Poker</h3>
 													<h4>01/08/2016</h4>
@@ -220,7 +221,7 @@
 									<section class="container1">
 										<div class="item">
 											<a href="#news8" class="link-news">
-											<div class="image"><img src="dist/images/25-07-2016.jpg"></div>
+												<div class="image"><img src="dist/images/25-07-2016.jpg"></div>
 												<div class="content">
 													<h3>Conheça o esporte com premiações bem mais generosas que o futebol</h3>
 													<h4>25/07/2016</h4>
@@ -250,7 +251,7 @@
 									<section class="container1">
 										<div class="item">
 											<a href="#news9" class="link-news">
-											<div class="image"><img src="dist/images/12-07-2016.jpg"></div>
+												<div class="image"><img src="dist/images/12-07-2016.jpg"></div>
 												<div class="content">
 													<h3>WSOP Circuit vai ter evento no Brasil</h3>
 													<h4>12/07/2016</h4>
@@ -290,7 +291,7 @@
 									<section class="container1">
 										<div class="item">
 											<a href="#news11" class="link-news">
-											<div class="image"><img src="dist/images/12-07-2016.jpg"></div>
+												<div class="image"><img src="dist/images/12-07-2016.jpg"></div>
 												<div class="content">
 													<h3>Brasil recebe etapa do Campeonato Mundial de Poker pela 1ª vez na história</h3>
 													<h4>11/07/2016</h4>

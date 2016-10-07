@@ -12,15 +12,15 @@
 </head>
 <body>
 	<main>
-	<header>
+		<header>
 			<div class="logo mobile-hidden">
-	        	<a href="index.php"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a>
-	        </div>
-	        <div class="menu-mobile mobile-hidden ng-cloak">
-	          <ul>
+				<a href="index.php"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a>
+			</div>
+			<div class="menu-mobile mobile-hidden ng-cloak">
+				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">Sobre</a></li>
-					<li><a href="diary.php">Agenda</a></li>
+					<li><a href="diary.php">Grade</a></li>
 					<li><a href="satellites.php">Satélites</a></li>
 					<li><a href="gallery.php">Galeria</a></li>
 					<li><a href="news.php">News</a></li>
@@ -32,37 +32,38 @@
 							<li><a href="https://www.facebook.com/wsopbrazil/?fref=ts" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						</ul>
 					</li>             
-	          </ul>
-	        </div>
-	        <div class="menu-btn mobile-hidden">
-	          <div class="menu-btn__bar" data-ng-class="{opened: mainCtrl.menu.opened}"></div>
-	          <div class="menu-btn__bar" data-ng-class="{opened: mainCtrl.menu.opened}"></div>
-	          <div class="menu-btn__bar" data-ng-class="{opened: mainCtrl.menu.opened}"></div>
-	        </div><!-- menu btn --> 
+				</ul>
+			</div>
+			<div class="menu-btn mobile-hidden">
+				<div class="menu-btn__bar" data-ng-class="{opened: mainCtrl.menu.opened}"></div>
+				<div class="menu-btn__bar" data-ng-class="{opened: mainCtrl.menu.opened}"></div>
+				<div class="menu-btn__bar" data-ng-class="{opened: mainCtrl.menu.opened}"></div>
+			</div><!-- menu btn --> 
 			<nav role="menu" class="desktop-hidden">
 				<ul class="menu">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.php">Sobre</a></li>
-					<li><a href="diary.php">Agenda</a></li>
+					<li><a href="diary.php">Grade</a></li>
 					<li><a href="satellites.php">Satélites</a></li>
-					<li><a href="index.php"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a></li>
 					<li><a href="gallery.php">Galeria</a></li>
+					<li><a href="#"><img src="dist/images/logo.png" class="logo" alt="WSOP Circut" role="logo"></a></li>
 					<li><a href="news.php">News</a></li>
 					<li><a href="results.php">Resultados</a></li>
 					<li><a href="contact.php">Contato</a></li>
-					<li class="box-social">
+					<li>
 						<ul class="social">
 							<li><a href="https://www.instagram.com/wsopbrazil/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 							<li><a href="https://www.facebook.com/wsopbrazil/?fref=ts" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						</ul>
 					</li>
+					<li><a href="#"><img src="dist/images/888poker-mini.png" class="logo-mini" alt="888 Poker" role="logo"></a></li>
 				</ul>
 			</nav>
 		</header>
 		<section class="content">
 			<section class="inner-content">
 				<div class="title2"><h2>Grade / Agenda</h2></div>
-				<article class="dairy">
+				<article class="diary">
 					<section class="list">
 						<section class="container1">
 							<div class="item">
@@ -149,8 +150,8 @@
 											<td class="gradeCol"></td>
 										</tr>
 									</table>
-									<p>* Currency exchange rates estimated - 1 USD = 3.20 BRL</p>
 								</div>
+								<p>* Currency exchange rates estimated - 1 USD = 3.20 BRL</p>
 							</div>
 						</section>
 						<section class="container1">
@@ -158,8 +159,8 @@
 								<a href="#diary2" class="link-news">
 									<div class="date"><span>27</span> Out, 16</div>
 									<div class="content">
-											<h3>Evento do dia 27 de Outubro de 2016</h3>
-											<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
+										<h3>Evento do dia 27 de Outubro de 2016</h3>
+										<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
 									</div>
 									<span class="plus">Mais</span>
 								</a>
@@ -248,8 +249,8 @@
 											<td class="gradeCol"></td>
 										</tr>
 									</table>
-									<p>* Currency exchange rates estimated - 1 USD = 3.20 BRL</p>
 								</div>
+								<p>* Currency exchange rates estimated - 1 USD = 3.20 BRL</p>
 							</div>
 						</section>
 						<section class="container1">
@@ -257,8 +258,8 @@
 								<a href="#diary3" class="link-news">
 									<div class="date"><span>28</span> Out, 16</div>
 									<div class="content">
-											<h3>Evento do dia 28 de Outubro de 2016</h3>
-											<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
+										<h3>Evento do dia 28 de Outubro de 2016</h3>
+										<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
 									</div>
 									<span class="plus">Mais</span>
 								</a>
@@ -337,8 +338,8 @@
 											<td class="gradeCol"></td>
 										</tr>
 									</table>
-									<p>* Currency exchange rates estimated - 1 USD = 3.20 BRL</p>
 								</div>
+								<p>* Currency exchange rates estimated - 1 USD = 3.20 BRL</p>
 							</div>
 						</section>
 						<section class="container1">
@@ -346,8 +347,8 @@
 								<a href="#diary4" class="link-news">
 									<div class="date"><span>29</span> Out, 16</div>
 									<div class="content">
-											<h3>Evento do dia 29 de Outubro de 2016</h3>
-											<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
+										<h3>Evento do dia 29 de Outubro de 2016</h3>
+										<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
 									</div>
 									<span class="plus">Mais</span>
 								</a>
@@ -426,8 +427,8 @@
 											<td class="gradeCol"></td>
 										</tr>
 									</table>
-									<p>* Currency exchange rates estimated - 1 USD = 3.20 BRL</p>
 								</div>
+								<p>* Currency exchange rates estimated - 1 USD = 3.20 BRL</p>
 							</div>
 						</section>
 						<section class="container1">
@@ -435,8 +436,8 @@
 								<a href="#diary5" class="link-news">
 									<div class="date"><span>30</span> Out, 16</div>
 									<div class="content">
-											<h3>Evento do dia 30 de Outubro de 2016</h3>
-											<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
+										<h3>Evento do dia 30 de Outubro de 2016</h3>
+										<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
 									</div>
 									<span class="plus">Mais</span>
 								</a>
@@ -485,8 +486,8 @@
 											<td class="gradeCol"></td>
 										</tr>
 									</table>
-									<p>* Currency exchange rates estimated - 1 USD = 3.20 BRL</p>
 								</div>
+								<p>* Currency exchange rates estimated - 1 USD = 3.20 BRL</p>
 							</div>
 						</section>
 						<section class="container1">
@@ -494,8 +495,8 @@
 								<a href="#diary6" class="link-news">
 									<div class="date"><span>31</span> Out, 16</div>
 									<div class="content">
-											<h3>Evento do dia 28 de Outubro de 2016</h3>
-											<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
+										<h3>Evento do dia 28 de Outubro de 2016</h3>
+										<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
 									</div>
 									<span class="plus">Mais</span>
 								</a>
@@ -564,8 +565,8 @@
 											<td class="gradeCol"></td>
 										</tr>
 									</table>
-									<p>* Currency exchange rates estimated - 1 USD = 3.20 BRL</p>
 								</div>
+								<p>* Currency exchange rates estimated - 1 USD = 3.20 BRL</p>
 							</div>
 						</section>
 						<section class="container1">
@@ -573,8 +574,8 @@
 								<a href="#diary7" class="link-news">
 									<div class="date"><span>01</span> Nov, 16</div>
 									<div class="content">
-											<h3>Evento do dia 28 de Outubro de 2016</h3>
-											<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
+										<h3>Evento do dia 28 de Outubro de 2016</h3>
+										<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
 									</div>
 									<span class="plus">Mais</span>
 								</a>
@@ -653,8 +654,8 @@
 											<td class="gradeCol"><i class="fa fa-check"></i></td>
 										</tr>
 									</table>
-									<p>* Currency exchange rates estimated - 1 USD = 3.20 BRL</p>
 								</div>
+								<p>* Currency exchange rates estimated - 1 USD = 3.20 BRL</p>
 							</div>
 						</section>
 						<section class="container1">
@@ -662,8 +663,8 @@
 								<a href="#diary8" class="link-news">
 									<div class="date"><span>02</span> Nov, 16</div>
 									<div class="content">
-											<h3>Evento do dia 28 de Outubro de 2016</h3>
-											<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
+										<h3>Evento do dia 28 de Outubro de 2016</h3>
+										<p>Acompanhe todos os detalhes sobre os eventos deste dia.</p>
 									</div>
 									<span class="plus">Mais</span>
 								</a>
@@ -752,8 +753,8 @@
 											<td class="gradeCol"></td>
 										</tr>
 									</table>
-									<p>* Currency exchange rates estimated - 1 USD = 3.20 BRL</p>
 								</div>
+								<p>* Currency exchange rates estimated - 1 USD = 3.20 BRL</p>
 							</div>
 						</section>
 						<div><p>O vencedor do Main Event e o Casino Champion – jogador que acumular mais pontos nos torneios de anel – ganharão assentos no WSOP 2017 Global Casino Championship - Gold Bracelet Event</p></div>
@@ -766,9 +767,9 @@
 				<section class="poker-chip"></section>
 			</section>
 			<?php include 'includes/gallery.php'; ?>
-			</section>
 		</section>
-		<?php include 'includes/footer.php'; ?>
+	</section>
+	<?php include 'includes/footer.php'; ?>
 	<main>
-</body>
-</html>
+	</body>
+	</html>
