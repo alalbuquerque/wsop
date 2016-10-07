@@ -56,10 +56,10 @@
 
     setInterval(function() {
 
-           var windowHeight = $(window).height();
+        var windowHeight = $(window).height();
        var windowWidth = $(window).width();
        backgroundSize =  windowWidth + 'px' + ' ' + windowHeight + 'px';
-       console.log(backgroundSize);
+       
        $('#carousel-id').css('height', windowHeight);
        $('#carousel-id .item').css('background-size', backgroundSize);
        $('#carousel-id .item').css('height', windowHeight);
@@ -68,12 +68,12 @@
 
       if(curOffset >= 1100) {
 
-      if($el.hasClass('parallax-mirror')) $el.addClass('parallax2');
+        if($el.hasClass('parallax-mirror')) $el.addClass('parallax2');
 
-      } else {
-        // they've stopped, add the class if it doesn't exist
-        if($el.hasClass('parallax-mirror')) $el.removeClass('parallax2');
-      }
+        } else {
+          // they've stopped, add the class if it doesn't exist
+          if($el.hasClass('parallax-mirror')) $el.removeClass('parallax2');
+        }
       oldOffset = curOffset;
     }, 5);
 
